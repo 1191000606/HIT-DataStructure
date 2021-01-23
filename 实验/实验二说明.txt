@@ -1,0 +1,4 @@
+实验二有两个程序Huffman_zip.c，Huffman_unzip.c，一个用来测试的文件hamlet.txt
+Huffman_zip.c是压缩程序，得到一个文件夹Compression，里面有三个文件，processed是Huffman编码得到的01串，key是各个字符的二进制编码，compressed是压缩过的文件
+Huffman_unzip.c是解压程序，根据Compression里的key和comprocessed还原出原文件
+如果想压缩别的文件，可以自行修改两个程序中文件打开的部分
